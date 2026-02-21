@@ -3,45 +3,170 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - Rasayana AI</title>
+    <title>Privacy Policy | Rasayana AI (රසායන AI)</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
     <style>
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; background: #f4f7f6; }
-        .container { background: white; padding: 40px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
-        h1 { color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 10px; }
-        h2 { color: #2980b9; margin-top: 25px; }
-        p, li { font-size: 16px; }
-        .sinhala { font-family: 'Iskoola Pota', sans-serif; color: #555; }
-        footer { margin-top: 30px; text-align: center; font-size: 14px; color: #888; }
+        :root {
+            --primary: #00d2ff;
+            --secondary: #3a7bd5;
+            --dark: #0f172a;
+            --glass: rgba(255, 255, 255, 0.95);
+        }
+
+        body {
+            font-family: 'Inter', 'Iskoola Pota', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: var(--dark);
+            color: #334155;
+            line-height: 1.8;
+        }
+
+        /* Hero Header */
+        .hero {
+            background: linear-gradient(135deg, rgba(15, 23, 42, 0.8), rgba(58, 123, 213, 0.6)), 
+                        url('https://github.com/ShanCodeWay/rasayana-privacy/raw/main/banner_6.png');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            padding: 20px;
+        }
+
+        .hero img.logo {
+            width: 120px;
+            height: 120px;
+            border-radius: 24px;
+            margin-bottom: 20px;
+            border: 4px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            transition: transform 0.3s ease;
+        }
+        
+        .hero img.logo:hover { transform: scale(1.05); }
+
+        .hero h1 { font-size: 3rem; margin: 0; font-weight: 700; letter-spacing: -1px; }
+        .hero p { font-size: 1.2rem; opacity: 0.9; }
+
+        /* Content Container */
+        .container {
+            max-width: 900px;
+            margin: -80px auto 60px;
+            background: var(--glass);
+            padding: 50px;
+            border-radius: 24px;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.3);
+            backdrop-filter: blur(10px);
+        }
+
+        .feature-banner {
+            width: 100%;
+            border-radius: 15px;
+            margin: 30px 0;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: var(--secondary);
+            font-size: 1.8rem;
+            margin-top: 40px;
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+
+        h2::before {
+            content: '🧪';
+            margin-right: 15px;
+            font-size: 1.5rem;
+        }
+
+        .sinhala-card {
+            background: #f1f5f9;
+            border-left: 5px solid var(--primary);
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 0 12px 12px 0;
+            font-weight: 500;
+            color: #1e293b;
+        }
+
+        .contact-section {
+            background: linear-gradient(to right, #3a7bd5, #00d2ff);
+            color: white;
+            padding: 30px;
+            border-radius: 15px;
+            margin-top: 50px;
+            text-align: center;
+        }
+
+        .contact-section a { color: white; font-weight: bold; text-decoration: none; border-bottom: 1px solid white; }
+
+        footer { text-align: center; padding: 40px; color: #94a3b8; font-size: 0.9rem; }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .container { margin: -50px 15px 40px; padding: 25px; }
+            .hero h1 { font-size: 2rem; }
+        }
     </style>
 </head>
 <body>
+
+    <header class="hero">
+        <img src="https://github.com/ShanCodeWay/rasayana-privacy/raw/main/rasayanaAiLogoPngN.png" alt="Rasayana AI Logo" class="logo">
+        <h1>Rasayana AI (රසායන AI)</h1>
+        <p>Your Intelligent Chemistry Companion</p>
+    </header>
+
     <div class="container">
-        <h1>Privacy Policy for Rasayana AI</h1>
-        <p class="sinhala">රසායන AI යෙදුම සඳහා පුද්ගලිකත්ව ප්‍රතිපත්තිය</p>
-        
-        <p>Last updated: February 2026</p>
+        <div style="text-align: center; margin-bottom: 30px;">
+            <span style="background: #e0f2fe; color: #0369a1; padding: 5px 15px; border-radius: 20px; font-size: 0.8rem; font-weight: bold; text-transform: uppercase;">Official Policy 2026</span>
+        </div>
 
-        <p>Rasayana AI is committed to protecting your privacy. This policy explains how we handle information when you use our mobile application.</p>
+        <p>At <strong>Rasayana AI</strong>, we believe that education should be accessible and private. This policy outlines our commitment to your data security while providing the best AI-powered chemistry learning experience in Sri Lanka.</p>
 
-        <h2>1. Information Collection (තොරතුරු රැස් කිරීම)</h2>
-        <p><strong>Camera Data:</strong> Our "Camera Scan" feature requires access to your camera to capture images of chemistry problems. These images are processed via AI to provide answers and are not stored permanently on our servers.</p>
-        <p><strong>Personal Data:</strong> We do not require users to create an account or provide personal names/emails to use basic features.</p>
+        <img src="https://github.com/ShanCodeWay/rasayana-privacy/raw/main/feature.png" alt="App Features" class="feature-banner">
 
-        <h2>2. Use of AI (AI තාක්ෂණය භාවිතය)</h2>
-        <p>We use Artificial Intelligence to analyze chemistry equations. This processing is done securely to ensure academic assistance.</p>
+        <h2>1. Camera & Scan Usage</h2>
+        <p>To use the "Scan & Solve" feature, the app requires access to your camera. This allows the AI to read chemical equations and handwritten questions.</p>
+        <div class="sinhala-card">
+            📷 ඡායාරූපයෙන් පිළිතුරු සෙවීම සඳහා ඔබගේ කැමරාව භාවිත කිරීමට අවසර අවශ්‍ය වේ. මෙම ඡායාරූප අපගේ දත්ත පද්ධති තුල ස්ථිරව ගබඩා කරනු නොලබන අතර එය භාවිතා කරනුයේ ගැටළුව විසඳීමට පමණි.
+        </div>
 
-        <h2>3. Third-Party Services</h2>
-        <p>We may use Google AdMob or Firebase Analytics to improve app performance and show relevant ads. These services may collect device identifiers.</p>
+        <h2>2. Data Privacy</h2>
+        <p>We do not collect personal identifying information such as your name, phone number, or address. Your learning journey is anonymous and secure.</p>
+        <div class="sinhala-card">
+            🔒 ඔබගේ නම හෝ පෞද්ගලික තොරතුරු අප රැස් කරනු නොලබයි. ඔබගේ පෞද්ගලිකත්වය අප හට ඉතා වැදගත් වේ.
+        </div>
 
-        <h2>4. Children's Privacy (ළමුන්ගේ ආරක්ෂාව)</h2>
-        <p>Our app is safe for students. We do not knowingly collect identifiable information from children under 13.</p>
+        <h2>3. AI Processing</h2>
+        <p>Our AI analyzes chemistry data to provide educational assistance. This process is optimized for accuracy and student safety according to the local syllabus.</p>
+        <div class="sinhala-card">
+            🤖 මෙහි ඇති AI තාක්ෂණය මගින් රසායන විද්‍යාත්මක ගැටළු වලට නිවැරදි විවරණ ලබාදෙන අතර එය අධ්‍යාපනික අරමුණු සඳහාම පමණක් නිර්මාණය කර ඇත.
+        </div>
 
-        <h2>5. Contact Us (අපව සම්බන්ධ කරගන්න)</h2>
-        <p>If you have questions, contact us at: <br>
-        <strong>Email: [Your-Email-Here]</strong></p>
+        <h2>4. Third Party Policy</h2>
+        <p>We use Google services (Firebase/AdMob) to provide app stability and free access to content. These services handle data according to Google's standard privacy terms.</p>
+
+        <div class="contact-section">
+            <h3>Questions? (ගැටළු තිබේද?)</h3>
+            <p>If you have any concerns regarding your privacy, reach out to us:</p>
+            <p>Email: <a href="mailto:darshana.wijebahu@gmail.com">darshana.wijebahu@gmail.com</a></p>
+            <p>Developer: <strong>ShanCodeWay</strong></p>
+        </div>
     </div>
+
     <footer>
-        &copy; 2026 Rasayana AI - Sri Lanka
+        &copy; 2026 Rasayana AI - Sri Lanka. All Rights Reserved. <br>
+        රසායන විද්‍යාව නවීන තාක්ෂණයෙන් ඉගෙන ගන්න.
     </footer>
+
 </body>
 </html>
